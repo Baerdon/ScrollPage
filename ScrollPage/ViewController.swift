@@ -28,12 +28,14 @@ class ViewController: UIViewController {
             
             var newX:CGFloat = 0.0
             
-            newX = view.frame.midX + view.frame.size.width * CGFloat(x)
+            newX = scrollView.frame.size.width / 2 + scrollView.frame.size.width * CGFloat(x)
             contentWidth += newX
             
             scrollView.addSubview(imageView)
-            imageView.frame = CGRect(x: newX - 75, y: (view.frame.size.height/2) - 75, width: 150, height: 150)
+            imageView.frame = CGRect(x: newX - 75, y: (scrollView.frame.size.height/2) - 75, width: 150, height: 150)
         }
+        
+        scrollView.clipsToBounds = false
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
 
     }
