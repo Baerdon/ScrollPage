@@ -54,14 +54,11 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yVX-IB-xhh" secondAttribute="bottom" id="HuA-lD-OuE"/>
                             <constraint firstAttribute="trailing" secondItem="ISk-06-Ji7" secondAttribute="trailing" id="OLy-En-vrd"/>
                             <constraint firstItem="ISk-06-Ji7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Rq1-ZA-icj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ZKK-6N-WIH" secondAttribute="trailing" constant="17" id="ZOc-HP-Y7K"/>
                             <constraint firstItem="ZKK-6N-WIH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="drr-4p-t5I"/>
                             <constraint firstItem="yVX-IB-xhh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fO0-xl-wkQ"/>
-                            <constraint firstItem="ZKK-6N-WIH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="lYk-Dq-CRO"/>
                             <constraint firstItem="p7L-Va-bbu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="opG-lH-YTO"/>
                             <constraint firstItem="yVX-IB-xhh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-0.5" id="w7u-eh-hgr"/>
                             <constraint firstAttribute="trailing" secondItem="p7L-Va-bbu" secondAttribute="trailing" id="wkQ-M0-Y5Z"/>
-                            <constraint firstItem="yVX-IB-xhh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yra-AQ-tLf"/>
                         </constraints>
                     </view>
                     <connections>
